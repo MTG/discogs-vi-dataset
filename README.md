@@ -2,6 +2,14 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13983028.svg)](https://doi.org/10.5281/zenodo.13983028)
 
+> **New — Discogs-VI-SIREN**
+> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21742034.svg)](https://doi.org/10.5281/zenodo.21742034)
+>
+> *SImilar REgioNs between musical versions in Discogs-VI*: for pairs of
+> versions of the same work, the regions where the two recordings correspond.
+> We used [CLEWS](https://github.com/sony/clews) embeddings to locate them.
+> An animation illustrating the similar regions is coming.
+
 Discogs-VI is a dataset of [musical version](https://en.wikipedia.org/wiki/Cover_version) metadata and pre-computed audio representations, created for research on version identification (VI), also referred to as cover song identification (CSI). It was created using editorial metadata from the public [Discogs](https://discogs.com) music database by identifying version relationships among millions of tracks, utilizing metadata matching based on artist and writer credits as well as track title metadata. The identified versions comprise the *Discogs-VI* dataset, with a large portion of it mapped to official music uploads on YouTube, resulting in the *Discogs-VI-YT* subset.
 
 In the VI literature the set of tracks that are versions of each other is defined as a *clique*. Here’s an example of the metadata for a [clique](./data/example_clique.json). *Discogs-VI* contains approximately 1.9 million versions belonging to around 348,000 cliques, while *Discogs-VI-YT* includes approximately 493,000 versions across about 98,000 cliques.
